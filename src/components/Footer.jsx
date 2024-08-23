@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 
 const Footer = () => {
   return (
@@ -9,29 +11,29 @@ const Footer = () => {
           <nav>
             <ul className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-6">
               <li>
-                <a href="/" className="hover:text-yellow-400">
+                <Link to="/" className="hover:text-yellow-400">
                   Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/blog" className="hover:text-yellow-400">
+                <Link to="/blog" className="hover:text-yellow-400">
                   Blog
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/AboutUs" className="hover:text-yellow-400">
+                <Link to="/AboutUs" className="hover:text-yellow-400">
                   About us
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/contactUs" className="hover:text-yellow-400">
+                <Link to="/contactUs" className="hover:text-yellow-400">
                   Contact us
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/privacypolicy" className="hover:text-yellow-400">
+                <Link to="/privacypolicy" className="hover:text-yellow-400">
                   Privacy Policy
-                </a>
+                </Link>
               </li>
             </ul>
           </nav>

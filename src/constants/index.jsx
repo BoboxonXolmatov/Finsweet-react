@@ -6,6 +6,8 @@ import JennyWilson from "../assets/3-bola.png"
 import LeslieAlexander from "../assets/1-bola.png"
 import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import { BuildingOffice2Icon, RocketLaunchIcon, ChartBarIcon, CpuChipIcon } from "@heroicons/react/24/outline";
+import { Link } from "react-router-dom";
+
 
 export const icons = {
   "office-building": BuildingOffice2Icon,
